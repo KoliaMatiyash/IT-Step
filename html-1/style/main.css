@@ -1,0 +1,20 @@
+h1 {
+    color: rgba(99, 19, 5, 0.734);
+}
+
+p {
+    color: black;
+}
+
+.main_class {
+    color: green;
+}
+
+.btn_link {
+    color: red;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
