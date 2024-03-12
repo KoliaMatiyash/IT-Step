@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+.list_style_type{
+    list-style-type: circle;
+}
+.mark_list{
+    list-style-type: circle;
+}
+.main_text_list{
+    list-style-type: none;
+}
+.main_text_list ::before{
+    content: "-";
+    color: brown;
+    font-size: 24px;
+    /* list-style-image: url("/lec2/send.png"); */
+}
+.box_padinng{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.conter{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid red;
+}
+
+
+.box_padinng p {
+    background-color: rgb(0, 217, 255);
+    width: 20px;
+    padding: 20px;
+    margin: 10px;
+}
