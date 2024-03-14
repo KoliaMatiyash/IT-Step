@@ -37,7 +37,10 @@ div{
     border: solid 2px #DDDDDD;
     width: 30%;
     border-radius: 10px;
+    align-items: center; 
     justify-content: center;
+    text-align: center;
+
 }
 .bt2{
     background-color:white;
@@ -46,5 +49,25 @@ div{
     width: 177px;
     height: 45px;
     border-radius: 50px;
-    align-items: center;
+}
+.item{
+    display: flex;
+    margin: auto;
+    border: none;
+    width: 250px;
+
+    
+}
+.text{
+    list-style-image:none;
+    list-style-type: none;
+    text-align: left;
+}
+.marg{
+    margin: 10px 0 0 0 ;
+    font-size: 18px;
+}
+.free{
+    font-size: 25px;
+    margin: 35px 0 0 0;
 }
