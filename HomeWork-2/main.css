@@ -1,0 +1,44 @@
+body{
+
+    margin: 40px 0 40px 145px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 16px;
+}
+h2,
+h3{
+    font-size: 35px;
+}
+ul{
+    list-style-image: url(/check.png);
+}
+ol{
+    list-style-image: url(/checkmark.png);
+}
+button{
+    color:white;
+    background-color: #F53838;
+    border: 0;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 45px 0 45px 0;
+}
+li{
+    margin: 35px 0 0 0;
+    line-height: 30px;
+}
+div{
+    border: solid 2px #DDDDDD;
+    width: 30%;
+}
+.bt2{
+    background-color:white;
+    color: #F53838;
+    border-color: #F53838;
+}
