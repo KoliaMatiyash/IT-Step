@@ -36,9 +36,15 @@ li{
 div{
     border: solid 2px #DDDDDD;
     width: 30%;
+    border-radius: 10px;
+    justify-content: center;
 }
 .bt2{
     background-color:white;
     color: #F53838;
-    border-color: #F53838;
+    border: solid 2px #F53838;
+    width: 177px;
+    height: 45px;
+    border-radius: 50px;
+    align-items: center;
 }
