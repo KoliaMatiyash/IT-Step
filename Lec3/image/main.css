@@ -6,6 +6,7 @@
     font-style: normal;
     color: white;
     list-style-type: none;
+    text-decoration: none;
 }
 .con{
     width: 20vw;
@@ -64,4 +65,53 @@ header{
     padding-top: 99px;
     height: 155px;
     border-bottom: 1px solid white;
+}
+.main_text{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 177px;
+    margin-bottom: 10px;
+}
+.secondery_text{
+    font-size: 24px;
+    max-width: 527px;
+    margin-bottom: 44px;
+}
+.btn{
+    background-color:  #E30A17;
+}
+.exp_btn{
+    padding: 10px 33px;
+}
+.social_icon{
+    fill: #fff;
+    width: 21px;
+    margin-right: 19px;
+    margin-top: 185px;
+}
+.social_icon :hover{
+    fill: #E30A17;
+}
+.social_item_list{
+    display: flex;
+}
+.secondary_bow{
+    display: flex;
+    justify-content: space-between;
+}
+.article_text_con{
+    width: 300px;
+}
+.article_text_box{
+    
+}
+.details_btn{
+    display: flex;
+    height: 54px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.details_btn svg{
+    width: 11px;
+    fill: #fff;
 }
