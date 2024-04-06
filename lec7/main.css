@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(./e2e679edc465ef061a43a2d140c058b0.jpg);
+}
+.star {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.moon {
+  margin: 25vh 0 0 40vw;
+  animation: rotateX 122350ms linear infinite;
+}
+@keyframes rotateX {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.stone {
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  animation: stone1 12s linear infinite;
+}
+@keyframes stone1 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(160vw, 0px) rotate(180deg);
+  }
+  100% {
+    transform: translate(-40vw, -1000px) rotate(360deg);
+  }
+}
+.stone2 {
+  width: 80px;
+  top: 10%;
+  right: -10%;
+  animation: stone2 10s linear infinite;
+  z-index: -1;
+}
+@keyframes stone2 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(160vw, 440px) rotate(180deg);
+  }
+  100% {
+    transform: translate(-40vw, 1000px) rotate(360deg);
+  }
+}
+.comet {
+  position: absolute;
+  width: 100px;
+  top: 60vh;
+  left: -40vw;
+  z-index: -1;
+  animation: comet 10s linear infinite;
+  rotate: 220deg;
+}
+@keyframes comet {
+  0% {
+    transform: translate(0, 0) scale(1.5);
+  }
+  100% {
+    transform: translate(120vw, 108px) scale(0);
+  }
+}
